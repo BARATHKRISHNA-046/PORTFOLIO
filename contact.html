@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="2xl:container mx-auto">
+        <div class="w-[90%] md:w-[65%] mx-auto py-5">
+
+            <!-- head bar started  -->
+         <div class="py-5  flex justify-between px-5">
+            <h1  style="font-family: 'Buda', serif; text-[24px]" class="bg-slate-200 rounded-lg px-5 py-3 hover:bg-slate-400 border-1"> <a href="index.html">MY PORTFOLIO</a></h1>
+            <div class="bg-slate-200 rounded-lg px-5 py-3 hover:bg-slate-400 border-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell-ring-icon lucide-bell-ring"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M22 8c0-2.3-.8-4.3-2-6"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/><path d="M4 2C2.8 3.7 2 5.7 2 8"/></svg>
+            </div> 
+        </div>
+        <!-- head bar ended  -->
+
+        <!-- nav bar started  -->
+       <div class="py-5 shadow-lg border rounded-full hidden md:block my-6" style="font-family: 'Buda', serif;">
+         <ul class="flex items-center justify-around text-[19px]">
+            <li><a href="index.html">  <h2 class="text-gray-800 hover:text-blue-900">HOME</h2> </a></li>
+            <li><a href="project.html"><h2 class="text-gray-800 hover:text-blue-900">PROJECT</h2> </a></li>
+            <li><a href="resume.html"> <h2 class="text-gray-800 hover:text-blue-900">RESUME</h2> </a></li>
+            <li><a href="tools.html">   <h2 class="text-gray-800 hover:text-blue-900">TOOLS</h2> </a></li>
+             <li><a href="contact.html">  <h2 class="text-gray-800 hover:text-blue-900">CONTACT</h2> </a></li>
+        </ul>
+       </div>
+        <!-- nav bar ended  -->
+          
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <form class=" flex flex-col gap-3">
+                    <div class="flex flex-col"> 
+                        <label for="">EMAIL :</label>
+                            <input type="email" placeholder="@gmail.com" class=" border p-3 rounded-lg my-3">
+                    </div>
+
+                    <div class="flex flex-col"> 
+                        <label for="">NAME :</label>
+                        <input type="text" placeholder="Enter your name" class=" border p-3 rounded-lg my-3">
+                    </div>
+
+                    <div class="flex flex-col"> 
+                        <label for="">MESSAGE :</label>
+                        <textarea name="" id="" class="border-1" rows="4""></textarea>
+                    </div>
+
+                    <div>
+                        <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
